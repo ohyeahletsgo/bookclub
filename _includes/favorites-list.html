@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+  </head>
+  <body>
+    {% assign favorite_books = site.books | sort: "rating" %}
+    <ol>
+      {% for fav in favorite_books limit:5 %}
+        <li>
+          <p><a href="{{ fav.url }}">{{ fav.title }}, {{ fav.author }}</a></p>
+        </li>
+      {% endfor %}
+    </ol>
+  </body>
+</html>
