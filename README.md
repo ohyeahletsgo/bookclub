@@ -1,6 +1,6 @@
 ## Current Reading Schedule
 
-1. [An Absolutely Remarkable Thing](sched/Green_H_001.md)
+1. [An Absolutely Remarkable Thing](Schedules/Hank_Green_001.md)
 
 ## What's Up Next?
 
