@@ -9,12 +9,6 @@ review: A great exploration of the motivations we have to exist and relate to ot
 current: false
 ---
 
-# To Have or to Be
-
-Author: Erich Fromm  
-Pages: 202  
-Genre: Non-fiction, Psychology, Philosophy, Monograph  
-
 ## Reading Schedule: 
 
 | # | Chapters | Page | Date | 
@@ -27,9 +21,3 @@ Genre: Non-fiction, Psychology, Philosophy, Monograph
 | 6 | VI | 108 | 2021-10-11 |
 | 7 | VII | 133 | 2021-10-18 |
 | 8 | VIII | 168 | 2021-10-25 |
-
-## Book Club Review
-
-Rating: 4/5
-
-"A great exploration of the motivations we have to exist and relate to others."
