@@ -4,7 +4,7 @@ Super secret book club repo on GitHub.
 
 ## Current Reading Schedule
 
-1. [An Absolutely Remarkable Thing](Schedules/Hank Green 001.md)
+1. [An Absolutely Remarkable Thing](Schedules/Hank_Green_001.md)
 
 ## What's Up Next?
 
