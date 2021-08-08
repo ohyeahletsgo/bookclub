@@ -20,6 +20,6 @@ Genre: Science Fiction, Speculative Fiction
 | 5 | 14-19 | 223 | 2021-09-12 |
 | 6 | 20-25 | 287 | 2021-09-19 |
 
-## Book Club Reviews
+## Book Club Review
 
 *Review will be here when bookclub finishes the book*
