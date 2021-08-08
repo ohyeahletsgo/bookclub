@@ -21,12 +21,16 @@
         
         <h2>Currently Reading</h2>
         
-        {% for book in site.books %}
-          {% if book.current == true %}
-            <p><a href="{{ site.url }}{{ book.url }}">{{ book.title }}, {{ book.author }}</a></p>
-          {% endif %}
-        {% endfor %}
-        
+        <ul>
+          {% for book in site.books %}
+            {% if book.current == true %}
+              <li>
+                <p><a href="{{ site.url }}{{ book.url }}">{{ book.title }}, {{ book.author }}</a></p>
+              </li>            
+            {% endif %}
+          {% endfor %}
+        </ul>
+          
         <h2>Previous Books</h2>
         
         {% include previous-list.html %}
