@@ -4,7 +4,7 @@
   url: /
 
 - title: Schedules
-  url: /Schedules/README.md
+  url: /Schedules/
   sublinks:
     - title: Hank Green 001
       url: /Schedules/Hank_Green_001.md
