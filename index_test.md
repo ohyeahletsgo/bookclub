@@ -1,6 +1,11 @@
+---
+layout: default
+title: home
+---
+
 ## Current Reading Schedule
 
-1. [An Absolutely Remarkable Thing](sched/Green_H_001.md)
+1. [An Absolutely Remarkable Thing](Schedule/Hank_Green_001.md)
 
 ## What's Up Next?
 
@@ -17,3 +22,5 @@
 ## Past Reading Schedules
 
 1. *list here*
+
+Test Number: 002
