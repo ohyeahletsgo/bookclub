@@ -22,16 +22,4 @@ Genre: Science Fiction, Speculative Fiction
 
 ## Book Club Reviews
 
-Group Rating: ~/5
-
-### Bise, Robbie
-
-Stars: ~/5
-
-*Review here*
-
-### Riggin, Kekoa
-
-Stars: ~/5
-
-*Review here*
+*Review will be here when bookclub finishes the book*
