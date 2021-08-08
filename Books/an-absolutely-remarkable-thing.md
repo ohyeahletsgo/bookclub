@@ -1,6 +1,6 @@
 ---
-layout: default
-title: An Absolutely Remarkable Thing
+layout: schedule
+title: An Absolutely Remarkable Thing, Hank Green
 ---
 
 # An Absolutely Remarkable Thing
