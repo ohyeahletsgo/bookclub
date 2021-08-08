@@ -11,7 +11,7 @@ Genre: Science Fiction, Speculative Fiction
 ## Reading Schedule  
 
 | # | Chapters | Page | Date | 
-| - | - | - | - |
+|-----|-----|-----|-----|
 | 1 | 1-4 | 0 bitch | 2021-08-15 |
 | 2 | 5-9 | 55 | 2021-08-22 |
 | 3 | 8-11 | 111 | 2021-08-29 |
