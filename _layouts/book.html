@@ -20,7 +20,7 @@
         <h4 id="page_title">{{ page.title }}</h4>
         
         {% for book in site.books %}
-          {% if book.current == "true" %}
+          {% if book.current == true %}
             <h2>{{ book.title }} - {{ book.author }}</h2>
             <p>{{ book.content | markdownify }}</p>
           {% endif %}
