@@ -19,6 +19,10 @@
       <section id="main_content" class="inner">
         <h4 id="page_title">{{ page.title }}</h4>
         
+        {% for book in site.books %}
+          <p>{{ book.title }}, {{ book.author }}</p>
+        {% endfor %}
+        
         {% assign current_book = {{ site.books | find: "current", "true" }} %}
         
         {{ current_book.content }}
