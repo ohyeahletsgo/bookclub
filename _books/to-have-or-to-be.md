@@ -1,4 +1,5 @@
 ---
+layout: book
 title: To Have or to Be
 author: Erich Fromm
 pages: 202
