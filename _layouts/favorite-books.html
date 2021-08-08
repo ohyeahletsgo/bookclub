@@ -21,7 +21,7 @@
         
         {% assign favorite_books = site.books | sort: "rating" %}
         <ol>
-          {% for fav in favorite_books limit:10 %}
+          {% for fav in favorite_books %}
             <li>
               <p><a href="{{ site.url }}{{ fav.url }}">{{ fav.title }}, {{ fav.author }}</a></p>
             </li>
