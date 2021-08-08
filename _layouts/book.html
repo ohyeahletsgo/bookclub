@@ -23,9 +23,9 @@
           <p>{{ book.title }}, {{ book.author }}</p>
         {% endfor %}
         
-        {% assign current_book = {{ site.books | find: "current", "true" }} %}
+        {% assign current_book = {{ site.books | find: "current", true }} %}
         
-        {{ current_book.content }}
+        {{ current_book.content | markdownify }}
         
       </section>
     </div>
