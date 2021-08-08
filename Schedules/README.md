@@ -1,3 +1,7 @@
+---
+title: Reading Schedules
+---
+
 # Reading Schedules
 
 Currently reading: [An Absolutely Remarkable Thing, Hank Green](Schedules/Hank_Green_001.md)
