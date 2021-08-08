@@ -1,0 +1,11 @@
+# Belongs at: /_data/navigation.yml
+
+- title: Home
+  url: /
+
+- title: Schedules
+  url: /Schedules/README.md
+  sublinks:
+    - title: Hank Green 001
+      url: /Schedules/Hank_Green_001.md
+      
