@@ -1,3 +1,7 @@
+---
+title: Home
+---
+
 ## Current Reading Schedule
 
 1. [An Absolutely Remarkable Thing](Schedules/Hank_Green_001.md)
