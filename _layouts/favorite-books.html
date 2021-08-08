@@ -21,12 +21,22 @@
         
         <ol>
           {% assign favorite_books = site.books | sort: "rating" %}
-          {% for fav in favorite_books %}
-            <li>
-              <p><a href="{{ site.url }}{{ fav.url }}">{{ fav.title }}, {{ fav.author }}</a></p>
-            </li>
-          {% endfor %}
+            {% for fav in favorite_books %}
+              <li>
+                <p><a href="{{ site.url }}{{ fav.url }}">{{ fav.title }}, {{ fav.author }}</a></p>
+              </li>
+            {% endfor %}
         </ol>
+        
+        <ul>
+          {% for prev in site.books %}
+            {% if prev.current == false %}
+              <li>
+                <p><a href="{{ site.url }}{{ prev.url }}">{{ prev.title }}, {{ prev.author }}</a></p>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
         
       </section>
     </div>
