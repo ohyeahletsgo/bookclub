@@ -1,5 +1,5 @@
 ---
-layout: all-books
-title: All Books
+layout: previous-books
+title: Previous Books
 ---
 
