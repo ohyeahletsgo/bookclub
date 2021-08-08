@@ -1,5 +1,5 @@
 ---
-layout: schedule
+layout: book
 title: An Absolutely Remarkable Thing
 author: Hank Green  
 pages: 338  
