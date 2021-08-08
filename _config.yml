@@ -3,6 +3,7 @@ theme: jekyll-theme-slate
 collections:
   books:
     output: true
-
-include:
-  - _pages
+    permalink: books/slug
+  pages:
+    output: true
+    permalink: /:name
