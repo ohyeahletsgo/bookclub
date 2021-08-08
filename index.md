@@ -9,4 +9,4 @@ title: home
 
 ## bookclub History
 
-- [Previous books](Books/past-books.md)
+- [Previous books](Books/previous-books.md)
