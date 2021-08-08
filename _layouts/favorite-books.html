@@ -19,14 +19,6 @@
       <section id="main_content" class="inner">
         <h4 id="page_title">{{ page.title }}</h4>
         
-        <ol>
-          {% assign favorite_books = site.books | sort: "rating" %}
-            {% for fav in favorite_books %}
-              <li>
-                <p><a href="{{ site.url }}{{ fav.url }}">{{ fav.title }}, {{ fav.author }}</a></p>
-              </li>
-            {% endfor %}
-        </ol>
         
         <ul>
           {% for prev in site.books %}
