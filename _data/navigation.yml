@@ -3,8 +3,8 @@
 - title: Home
   url: /
 
-- title: Books
-  url: /Books/README
-  sublinks:
-    - title: Current Book
-      url: /Books/an-absolutely-remarkable-thing
+- title: Current Book
+  url: /Books/an-absolutely-remarkable-thing
+
+- title: Past Books
+  url: /Books/past-books
