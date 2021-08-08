@@ -1,6 +1,6 @@
 ---
 layout: schedule
-title: An Absolutely Remarkable Thing, Hank Green
+title: An Absolutely Remarkable Thing
 author: Hank Green  
 pages: 338  
 genre: [Science Fiction, Speculative Fiction] 
