@@ -1,6 +1,6 @@
 # bookclub
 
-- [Current Reading Schedule](unclenachoduh.github.io/bookclub/currently-reading)
+- [Current Reading Schedule](https://unclenachoduh.github.io/bookclub/current-book)
 
 ## Book Recommendations
 
