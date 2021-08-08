@@ -7,7 +7,6 @@ title: home
 
 1. [An Absolutely Remarkable Thing, Hank Green](Books/an-absolutely-remarkable-thing.md)
 
-## bookclub Favorites
+## bookclub History
 
-1. *list here*
-
+[Previous books](Books/past-books.md)
