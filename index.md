@@ -5,7 +5,7 @@ title: home
 
 ## Current Reading Schedule
 
-1. [An Absolutely Remarkable Thing](Schedule/Hank_Green_001.md)
+1. [An Absolutely Remarkable Thing](Books/an-absolutely-remarkable-thing.md)
 
 ## What's Up Next?
 
