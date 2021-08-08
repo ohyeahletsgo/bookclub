@@ -1,4 +1,4 @@
 ---
-layout: all-books
+layout: favorite-books
 title: Favorite Books
 ---
