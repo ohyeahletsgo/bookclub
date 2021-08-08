@@ -3,8 +3,8 @@
 - title: Home
   url: /
 
-- title: Schedules
-  url: /Schedules/
+- title: Books
+  url: /Schedules/README
   sublinks:
-    - title: Hank Green 001
-      url: /Schedules/Hank-Green-001
+    - title: Current Book
+      url: /Schedules/an-absolutely-remarkable-thing
