@@ -2,7 +2,7 @@
 
 Super secret book club repo on GitHub.
 
-## Reading Schedules
+## Current Reading Schedule
 
 1. [An Absolutely Remarkable Thing](sched/Green_H_001.md)
 
@@ -15,5 +15,9 @@ Super secret book club repo on GitHub.
 1. *list here*
 
 ## bookclub Favorites
+
+1. *list here*
+
+## Past Reading Schedules
 
 1. *list here*
