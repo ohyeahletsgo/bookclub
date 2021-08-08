@@ -19,9 +19,13 @@
       <section id="main_content" class="inner">
         <h4 id="page_title">{{ page.title }}</h4>
         
-        {% include favorites-list.html %}
-        
-        {% include previous-list.html %}
+         <ul>
+            {% for prev in site.books limit:10 %}
+              <li>
+                <p><a href="{{ prev.url }}">{{ prev.title }}, {{ prev.author }}</a></p>
+              </li>
+            {% endfor %}
+          </ul>
         
       </section>
     </div>
