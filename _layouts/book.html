@@ -20,15 +20,12 @@
         <h4 id="page_title">{{ page.title }}</h4>
         
         {% for book in site.books %}
+          <p>{{ book.title }} - {{ book.author }} | {{ book.current }}</p>
           {% if book.current == true %}
             <h2>{{ book.title }} - {{ book.author }}</h2>
             <p>{{ book.content | markdownify }}</p>
           {% endif %}
         {% endfor %}
-        
-        {% assign current_book = {{ site.books | find: "current", true }} %}
-        
-        {{ current_book.content | markdownify }}
         
       </section>
     </div>
