@@ -4,7 +4,7 @@
   url: /
 
 - title: Books
-  url: /Schedules/README
+  url: /Books/README
   sublinks:
     - title: Current Book
-      url: /Schedules/an-absolutely-remarkable-thing
+      url: /Books/an-absolutely-remarkable-thing
