@@ -1,6 +1,6 @@
 ---
 layout: default
-title: home
+title: Home Page
 ---
 
 ## Current Reading Schedule
