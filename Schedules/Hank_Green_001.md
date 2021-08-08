@@ -5,6 +5,7 @@ Pages: 338
 Genre: Science Fiction, Speculative Fiction  
 
 ## Reading Schedule  
+
 | # | Chapters | Page | Date | 
 | - | - | - | - |
 | 1 | 1-4 | 0 bitch | 2021-08-15 |
