@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Hank Green 001
+title: An Absolutely Remarkable Thing
 ---
 
 # An Absolutely Remarkable Thing
