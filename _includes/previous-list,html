@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+  </head>
+  <body>
+    {% assign previous_books = site.books %}
+    <ul>
+      {% for prev in previous_books limit:10 %}
+        {% if prev.current == false %}
+          <li>
+            <p><a href="{{ prev.url }}">{{ prev.title }}, {{ prev.author }}</a></p>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </body>
+</html>
