@@ -20,7 +20,7 @@
         <h4 id="page_title">{{ page.title }}</h4>
         
         <ul>
-          {% for prev in site.books limit:10 %}
+          {% for prev in site.books %}
             {% if prev.current == false %}
               <li>
                 <p><a href="{{ site.url }}{{ prev.url }}">{{ prev.title }}, {{ prev.author }}</a></p>
