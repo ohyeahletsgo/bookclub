@@ -3,7 +3,7 @@ layout: schedule
 title: An Absolutely Remarkable Thing
 author: Hank Green  
 pages: 338  
-genre: [Science Fiction, Speculative Fiction] 
+genre: Science Fiction, Speculative Fiction
 review: *Review will be here when bookclub finishes the book*
 rating: tbd
 current: true
