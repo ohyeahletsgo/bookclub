@@ -23,6 +23,12 @@
           <p>{{ book.title }}, {{ book.author }}</p>
         {% endfor %}
         
+        
+        {% for book in site.books %}
+          <h2>{{ book.title }} - {{ book.author }}</h2>
+          <p>{{ book.content | markdownify }}</p>
+        {% endfor %}
+        
         {% assign current_book = {{ site.books | find: "current", true }} %}
         
         {{ current_book.content | markdownify }}
