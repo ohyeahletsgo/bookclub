@@ -1,5 +1,5 @@
 ---
-layout: book-new
+layout: book
 title: An Absolutely Fake Book
 author: Jon Doe  
 pages: 69 nice
