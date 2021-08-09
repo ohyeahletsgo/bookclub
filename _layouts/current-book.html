@@ -21,9 +21,7 @@
         
         {% for book in site.books %}
           {% if book.current == true %}
-            <p>{{ book.content | markdownify }}</p>
-            <br>
-            {% include current-book-content.html %}
+            {% include current-book-content.html page=page %}
           {% endif %}
         {% endfor %}
         
