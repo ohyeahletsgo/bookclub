@@ -1,7 +1,3 @@
----
-book_layout = book.html
----
-
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
 
@@ -27,7 +23,7 @@ book_layout = book.html
           {% if book.current == true %}
             <p>{{ book.content | markdownify }}</p>
             <br>
-            {% include_relative {{ book_layout}} %}
+            {% include_relative book.html %}
           {% endif %}
         {% endfor %}
         
