@@ -22,7 +22,9 @@
         <h2>Currently Reading</h2>
         
         <ul>
-          {% for book in site.books %}
+          {% assign sorted = site.books | sort: 'date-finished' | reverse %}
+
+          {% for book in sorted %}
             {% if book.current == true %}
               <li>
                 <p><a href="{{ site.url }}{{ book.url }}">{{ book.title }}, {{ book.author }}</a></p>
