@@ -19,9 +19,11 @@
       <section id="main_content" class="inner">
         <h4 id="page_title">{{ page.title }}</h4>
         
-        
         <ol>
-          {% for book in site.books %}
+          {% assign sorted = site.books | sort: 'rating'  %}
+
+          {% for book in sorted limit: 12 %}
+          
             {% if book.current == false %}
               <li>
                 <p><a href="{{ site.url }}{{ book.url }}">{{ book.title }}, {{ book.author }}</a></p>
