@@ -20,9 +20,9 @@
         <h4 id="page_title">{{ page.title }}</h4>
         
         <ol>
-          {% assign sorted = site.books | sort: 'rating'  %}
+          {% assign sorted = site.books | sort: 'rating' | reverse %}
 
-          {% for book in sorted limit: 12 %}
+          {% for book in sorted limit: 10 %}
           
             {% if book.current == false %}
               <li>
