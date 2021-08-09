@@ -27,7 +27,7 @@
           {% for book in sorted limit: 5 %}
             {% if book.current == true %}
               <li>
-                <p><a href="{{ site.url }}{{ book.url }}">{{ book.title }}, {{ book.author }}</a></p>
+                <p><a href="{{ site.url }}/current-book">{{ book.title }}, {{ book.author }}</a></p>
               </li>            
             {% endif %}
           {% endfor %}
