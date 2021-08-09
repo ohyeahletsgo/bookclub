@@ -20,7 +20,7 @@
         <h4 id="page_title">{{ page.title }}</h4>
         
         
-        <ul>
+        <ol>
           {% for prev in site.books %}
             {% if prev.current == false %}
               <li>
@@ -28,7 +28,7 @@
               </li>
             {% endif %}
           {% endfor %}
-        </ul>
+        </ol>
         
       </section>
     </div>
