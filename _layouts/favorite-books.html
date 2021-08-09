@@ -21,10 +21,10 @@
         
         
         <ol>
-          {% for prev in site.books %}
-            {% if prev.current == false %}
+          {% for book in site.books %}
+            {% if book.current == false %}
               <li>
-                <p><a href="{{ site.url }}{{ prev.url }}">{{ prev.title }}, {{ prev.author }}</a></p>
+                <p><a href="{{ site.url }}{{ book.url }}">{{ book.title }}, {{ book.author }}</a></p>
               </li>
             {% endif %}
           {% endfor %}
