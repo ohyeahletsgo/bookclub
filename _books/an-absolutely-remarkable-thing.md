@@ -6,6 +6,7 @@ pages: 338
 genre: Science Fiction, Speculative Fiction
 review: Review will be here when bookclub finishes the book
 rating: 0
+date-finished: 2021-09-19
 current: true
 ---
 
