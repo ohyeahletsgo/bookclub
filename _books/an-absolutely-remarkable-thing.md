@@ -5,7 +5,7 @@ author: Hank Green
 pages: 338  
 genre: Science Fiction, Speculative Fiction
 review: Review will be here when bookclub finishes the book
-rating: tbd
+rating: 0
 current: true
 ---
 
