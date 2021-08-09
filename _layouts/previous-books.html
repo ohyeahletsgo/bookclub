@@ -20,7 +20,7 @@
         <h4 id="page_title">{{ page.title }}</h4>
         
         <ol>
-          {% assign sorted = site.books | sort: 'title' | reverse %}
+          {% assign sorted = site.books | sort: 'title' %}
 
           {% for book in sorted %}
           
