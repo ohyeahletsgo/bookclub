@@ -23,7 +23,7 @@
           {% if book.current == true %}
             <p>{{ book.content | markdownify }}</p>
             <br>
-            {% include_relative book.html %}
+            {% include current-book-content.html %}
           {% endif %}
         {% endfor %}
         
