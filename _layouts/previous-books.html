@@ -25,9 +25,12 @@
           {% for book in sorted %}
           
             {% if book.current == false %}
-              <li>
-                <p><a href="{{ site.url }}{{ book.url }}">{{ book.title }}, {{ book.author }}</a></p>
-              </li>
+              
+              {% if book.read == true %}
+                <li>
+                  <p><a href="{{ site.url }}{{ book.url }}">{{ book.title }}, {{ book.author }}</a></p>
+                </li>
+              {% endif %}
             {% endif %}
           {% endfor %}
         </ol>
