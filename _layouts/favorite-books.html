@@ -28,7 +28,7 @@
               
               {% if book.read == true %}
                 <li>
-                  <p><a href="{{ site.url }}{{ book.url }}">{{ book.title }}, {{ book.author }}</a></p>
+                  <p>{{ book.rating }} - <a href="{{ site.url }}{{ book.url }}">{{ book.title }}, {{ book.author }}</a></p>
                 </li>
               {% endif %}
             {% endif %}
