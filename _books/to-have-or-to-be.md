@@ -7,6 +7,7 @@ genre: Non-fiction, Psychology, Philosophy, Monograph
 rating: 4
 review: A great exploration of the motivations we have to exist and relate to others.
 date-finished: 2021-10-25
+read: true
 current: false
 ---
 
