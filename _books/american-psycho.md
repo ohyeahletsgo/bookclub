@@ -7,6 +7,7 @@ genre: Transgressive fiction, Postmodern literature, Dark comedy
 review: Review will be here when bookclub finishes the book
 rating: 0
 date-finished: 2021-10-17
+read: false
 current: false
 ---
 
