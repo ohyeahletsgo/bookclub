@@ -3,12 +3,19 @@
   <head>
   </head>
   <body>
-    {% assign favorite_books = site.books | sort: "rating" %}
     <ol>
-      {% for fav in favorite_books limit:5 %}
-        <li>
-          <p><a href="{{ fav.url }}">{{ fav.title }}, {{ fav.author }}</a></p>
-        </li>
+      {% assign sorted = site.books | sort: 'rating' | reverse %}
+
+      {% for book in sorted limit: 10 %}
+
+        {% if book.current == false %}
+
+          {% if book.read == true %}
+            <li>
+              <p><a href="{{ site.url }}{{ book.url }}">{{ book.title }}, {{ book.author }}</a> - {{ book.rating }} / 5 </p>
+            </li>
+          {% endif %}
+        {% endif %}
       {% endfor %}
     </ol>
   </body>
