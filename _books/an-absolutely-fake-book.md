@@ -7,6 +7,7 @@ genre: Farce
 review: Meh. It's okay
 rating: 2.5
 date-finished: 2020-01-01
+read: true
 current: false
 ---
 
